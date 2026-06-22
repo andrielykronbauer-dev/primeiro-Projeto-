@@ -1,13 +1,35 @@
 body{
-    background-color: mediumpurple;
+    background-color: rgb(255, 0, 157);
 }
 h1{
-    color: black;
+    color: beige;
     font-size: 60px;
     text-align: center;
 }
-p {
-    color: azure;
-    font-size: 40px;
+p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
     text-align: center;
+}
+img{
+    width: 30%;
+    margin-left: 710px;
+    border: 10px groove black
+}
+.imghtml{
+    width: 10%;
+    margin-left: 500px;
+    border: 10px solid green;
+}
+.img_cabecalho{
+    height: 250px;
+    width: 250px;
+    transition: 0.3s;
+
+}
+.img_cabecalho:hover{
+    opacity: 0.8;
+}
+header{
+    display:flex;
 }
